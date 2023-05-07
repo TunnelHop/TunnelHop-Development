@@ -4,6 +4,14 @@ In order to reduce complexity of managing redundant dependencies between all of 
 
 Typical usage is to use this repository as a submodule to easy keep changes in sync across all repos.
 
+## Submodule Usage
+
+**Add repo as submodule**
+`git submodule add https://github.com/TunnelHop/TunnelHop-Development.git development`
+
+**Pull updates submodule changes**
+`git submodule update --remote`
+
 ## Docker-Compose
 
 There is a sample `docker-compose` yaml in this repo that can be used directly or as a reference for dependencies when developing locally.
